@@ -9,7 +9,6 @@
                 <button :disabled="isLoading" class="short-button" @click="generateUrl()">Create Dynamic Url</button>
             </div>
         </div>
-        <div v-if="itemsArray" v-for="item in itemsArray" :key="item.id"> {{item}}</div>
     </div>
 </template>
 <script>
@@ -31,11 +30,9 @@ export default {
             url: '',
             link: false,
             key: api_key.secret,
-            itemsArray: [],
             shortURl: '',
             api: 'https://digitalmedia.page.link/?link=',
             isLoading: false,
-            errorMessages: {},
         }
     },
     methods: {
