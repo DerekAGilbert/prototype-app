@@ -21,6 +21,6 @@ ___
  3. run `npm install axios --save`
         `npm install firebase@5.3.0 --save`
 
- 
- 
  3. Then you can serve it with `vue serve app.js`, (this is a feature of vue for rapid prototyping. You might need to have this feature installed to do this. see recourses)
+ 
+ 4. Paste a long url into the input field, it should generate a short, dynamic url. You can open the console to see the record has been recored in firebases firestore relation database.
