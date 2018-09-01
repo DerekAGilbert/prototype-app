@@ -1,5 +1,4 @@
 # prototype-app
-___
 
  ## Dependencies
  - Npm version 6.4.1
