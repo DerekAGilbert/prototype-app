@@ -1,17 +1,16 @@
 # prototype-app
 ___
 
- ## Recources: 
- 
- - [Vue Cli](http://cli.vuejs.org/guide/installation.html) 
- - [Vue Cli instant prototyping](https://cli.vuejs.org/guide/prototyping.html)
- - [Firebase dynamic-links](https://firebase.google.com/docs/dynamic-links/)
- - [Firebase Firestore](https://firebase.google.com/docs/firestore/)
- 
  ## Dependencies
  - Npm version 6.4.1
  - Node v8.11.4
  - Vue cli 3.0
+ 
+  ### Technologies
+ - [Vue Cli](http://cli.vuejs.org/guide/installation.html) 
+ - [Vue Cli instant prototyping](https://cli.vuejs.org/guide/prototyping.html)
+ - [Firebase dynamic-links](https://firebase.google.com/docs/dynamic-links/)
+ - [Firebase Firestore](https://firebase.google.com/docs/firestore/)
  
   ## Steps to recreate
  
