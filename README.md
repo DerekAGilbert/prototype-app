@@ -6,6 +6,7 @@ ___
  - [Vue Cli](http://cli.vuejs.org/guide/installation.html) 
  - [Vue Cli instant prototyping](https://cli.vuejs.org/guide/prototyping.html)
  - [Firebase dynamic-links](https://firebase.google.com/docs/dynamic-links/)
+ - [Firebase Firestore](https://firebase.google.com/docs/firestore/)
  
  ## Dependencies
  - Npm version 6.4.1
