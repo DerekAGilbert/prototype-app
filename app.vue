@@ -14,14 +14,7 @@
 <script>
 import axios from 'axios'
 import api_key from './config'
-import config from './firebaseconfig'
-import firebase from 'firebase'
-import 'firebase/firestore'
-
-firebase.initializeApp(config);
-
-const db = firebase.firestore();
-db.settings({ timestampsInSnapshots: true }); 
+import db from './firebaseconfig'
 
 export default {
     data () {
@@ -65,7 +58,7 @@ export default {
        storeData (oldUrl, newUrl) {
             db.collection("links").add({
                 linkBefore: oldUrl,
-                LinkAfter: newUrl
+                linkAfter: newUrl
                 })
                 .then(function() {
                 console.log("Document successfully written!");
